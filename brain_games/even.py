@@ -9,7 +9,7 @@ import prompt
 # 4. отправляем ответ на проверку
 # 5. если ответ верный, продолжаем игру, выводим второе число
 # если ответ неверный, выводим сообщение и завершаем игру
-# 6. после трех правильных ответов выводим сообщение пользователю и завершаем игру
+# 6. после трех раундов выводим сообщение пользователю и завершаем игру
 # 7. переходим к следующей игре
 
 
@@ -23,7 +23,7 @@ def get_random_num_and_answer():
     number = random.randint(1, 101)
     even_check = is_even(number)
     return number, even_check
-    
+
 
 def even_game():
 
@@ -32,7 +32,6 @@ def even_game():
         'May I have your name? '
     )
     print(f'Hello, {username}!')
-    
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     GAMES_TO_WIN = 3
@@ -40,7 +39,7 @@ def even_game():
     for _ in range(GAMES_TO_WIN):
         number, even_check = get_random_num_and_answer()
 
-        print(number, even_check)
+        # print(number, even_check)
 
         print(f'Question: {number}')
         answer = prompt.string('Your answer: ')
@@ -48,10 +47,10 @@ def even_game():
             print('Correct!')
         else:
             print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{even_check}'.\n"
+                f"'{answer}' is wrong answer ;(."
+                f"Correct answer was '{even_check}'.\n"
                 f"Let's try again, {username}!"
             )
             return
-            
-    print(f'Congratulations, {username}!')
 
+    print(f'Congratulations, {username}!')
