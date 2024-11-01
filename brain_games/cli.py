@@ -7,3 +7,4 @@ def welcome_user():
         'May I have your name? '
     )
     print(f'Hello, {username}!')
+    return username
