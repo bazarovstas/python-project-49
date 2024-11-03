@@ -7,3 +7,6 @@ the demo of the even game shows the game process:
 
 the demo of the calc game shows the game process:  
 [![asciicast](https://asciinema.org/a/5hpqIrP2ueNX1fc3MQ2bdep0s.svg)](https://asciinema.org/a/5hpqIrP2ueNX1fc3MQ2bdep0s)
+
+the demo of the gcd game shows the game process:  
+[![asciicast](https://asciinema.org/a/pkfVypx5nxC0BdCQkBPKTaY82.svg)](https://asciinema.org/a/pkfVypx5nxC0BdCQkBPKTaY82)
