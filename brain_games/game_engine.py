@@ -10,7 +10,7 @@ def game_engine(get_question_and_answer: callable, introduction):
 
     for _ in range(const.GAMES_TO_WIN):
         question, answer = get_question_and_answer()
-        print(f'TESTPRINT, question, answer: {question}, {answer}')
+        # print(f'TESTPRINT, question, answer: {question}, {answer}')
 
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
