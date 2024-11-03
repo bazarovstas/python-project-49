@@ -2,7 +2,7 @@ import prompt
 import brain_games.constants as const
 
 
-def game_engine(get_question_and_answer: callable, introduction):
+def game_engine(get_question_and_answer, introduction):
     username = prompt.string(''.join(const.GREETING))
 
     print(f'Hello, {username}!')
