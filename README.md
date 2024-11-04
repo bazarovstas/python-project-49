@@ -10,3 +10,6 @@ the demo of the calc game shows the game process:
 
 the demo of the gcd game shows the game process:  
 [![asciicast](https://asciinema.org/a/pkfVypx5nxC0BdCQkBPKTaY82.svg)](https://asciinema.org/a/pkfVypx5nxC0BdCQkBPKTaY82)
+
+the demo of the progressive game shows the game process:  
+[![asciicast](https://asciinema.org/a/Qz2cmBga40oytULnUfRVrNz4J.svg)](https://asciinema.org/a/Qz2cmBga40oytULnUfRVrNz4J)
