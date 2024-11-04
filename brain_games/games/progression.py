@@ -13,7 +13,7 @@ def get_random_sequence_and_answer():
         if i == 0:
             sequence.append(random.randint(1, 16))
         else:
-            sequence += [sequence[i-1] + random_step]
+            sequence += [sequence[i - 1] + random_step]
 
     question = ''
     answer = random.choice(sequence)
