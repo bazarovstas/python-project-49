@@ -12,7 +12,11 @@ CALC_GAME_INTRODUCTION = [
 GCD_GAME_INTRODUCTION = [
     'Find the greatest common divisor of given numbers.'
 ]
+PROG_GAME_INTRODUCTION = [
+    'What number is missing in the progression?'
+]
 
 
 GAMES_TO_WIN = 3
 MATH_SYMBOLS = ['+', '-', '*']
+STEP_OF_SEQUENCE = [2, 3, 4, 5]
