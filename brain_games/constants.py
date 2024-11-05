@@ -1,4 +1,3 @@
-
 GREETING = [
     'Welcome to the Brain Games!\n'
     'May I have your name? '
@@ -15,7 +14,9 @@ GCD_GAME_INTRODUCTION = [
 PROG_GAME_INTRODUCTION = [
     'What number is missing in the progression?'
 ]
-
+PRIME_GAME_INTRODUCTION = [
+    'Answer "yes" if given number is prime. Otherwise answer "no".'
+]
 
 GAMES_TO_WIN = 3
 MATH_SYMBOLS = ['+', '-', '*']
