@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Project of the first module - Brain Games"
+description = "Brain Games is a set of several games for your gray matter."
 authors = ["Stanislav B <bazarovstas@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/bazarovstas/python-project-49"
 packages = [
     { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Games/Entertainment :: Puzzle Games"
 ]
 
 [tool.poetry.dependencies]
