@@ -6,24 +6,16 @@ from brain_games.constants import PROG_GAME_INTRODUCTION
 
 
 def get_random_sequence_and_answer():
-    sequence = []
     random_step = random.choice(STEP_OF_SEQUENCE)
-
+    start_number = random.randint(1, 16)
+    sequence = []
+    sequence.append(start_number)
     for i in range(8):
-        if i == 0:
-            sequence.append(random.randint(1, 16))
-        else:
-            sequence += [sequence[i - 1] + random_step]
-
+        sequence += [sequence[i] + random_step]
     question = ''
     answer = random.choice(sequence)
-
     for i in range(len(sequence)):
-        if sequence[i] == answer:
-            question += ' ..'
-        else:
-            question += ' ' + str(sequence[i])
-
+        question += ' ' + str(sequence[i]) if sequence[i] != answer else ' ..'
     return question.strip(), str(answer)
 
 
