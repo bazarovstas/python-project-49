@@ -12,7 +12,7 @@ def get_greatest_common_divisor(num1, num2):
 
 def get_random_numbers_and_answer():
     num1, num2 = random.randint(1, 101), random.randint(1, 101)
-    question = f' {num1} {num2}'
+    question = f'{num1} {num2}'
     answer = str(get_greatest_common_divisor(num1, num2))
     return question, answer
 
