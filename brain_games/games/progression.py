@@ -5,7 +5,7 @@ from brain_games.constants import PROG_GAME_BRIEFING
 
 
 def get_random_sequence_and_answer():
-    random_step = get_random_choice(STEP_OF_SEQUENCE)
+    random_step = get_random_choice(['2', '3', '4'])
     start_number = get_random_number(15)
     sequence = []
     sequence.append(start_number)

@@ -3,7 +3,7 @@ import brain_games.constants as const
 
 
 def game_engine(get_question_and_answer, briefing):
-    username = prompt.string(const.GREETING)
+    username = prompt.string('Welcome to the Brain Games!\n''May I have your name? ')
     print(f'Hello, {username}!')
     print(briefing)
     for _ in range(const.NUMBER_OF_GAMES):

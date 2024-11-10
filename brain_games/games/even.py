@@ -3,16 +3,14 @@ from brain_games.game_engine import game_engine
 from brain_games.constants import EVEN_GAME_BRIEFING
 
 
-def is_even(number):
-    if number % 2 == 0:
-        return 'yes'
-    return 'no'
+def is_even(number: int) -> bool:
+    return number % 2 == 0
 
 
 def get_random_num_and_answer():
     random_number = get_random_number()
     even_check = is_even(random_number)
-    return random_number, even_check
+    return random_number, 'yes' if even_check else 'no'
 
 
 def even_game():

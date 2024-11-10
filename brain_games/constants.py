@@ -1,7 +1,3 @@
-GREETING = [
-    'Welcome to the Brain Games!\n'
-    'May I have your name?'
-]
 EVEN_GAME_BRIEFING = 'Answer "yes" if the number is even, otherwise answer "no".'
 CALC_GAME_BRIEFING = 'What is the result of the expression?'
 GCD_GAME_BRIEFING = 'Find the greatest common divisor of given numbers.'
