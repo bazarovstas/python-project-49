@@ -1,14 +1,14 @@
 <!-- Hexlet logo -->
 <a id="anchor-top"></a>
 <div align="center"
-      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column;">
+      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
   <a href="https://ru.hexlet.io/" style="color: black">
     <img src="images/hexlet_logo_full.svg" 
           alt="Logo" 
           width="170" height="60"
           style="display: flex; flex-wrap: wrap; margin: 6px"> 
   </a>
-  <h4 style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</h4>
+  <p style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</p>
 </div>
 
 ### Hexlet tests and linter status:
@@ -18,8 +18,6 @@
 
 <!-- Main page -->
 [![Hexlet-Project][project-image]](https://ru.hexlet.io/)
-
-<center>
 
 
 ## The Brain Games  
@@ -53,9 +51,7 @@ This demo of the progressive game shows the game process:
 This demo of the prime game shows the game process:  
 [![asciicast](https://asciinema.org/a/687413.svg)](https://asciinema.org/a/687413)
 
-</center>
-
-<p align="center">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 
 ## Installation
@@ -137,14 +133,16 @@ generate a distributive and install them:
   package-reinstall
   ```
 
-<p align="center">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 <div class="logo_wrapper"
       style="display: flex; align-items: center; justify-content: center;">
-  <img src="images/hexlet_logo.png" 
-      alt="Hexlet brand logo" 
-      width="110" heigth="110"
-      style="display: flex; align-items: center; justify-content: center;">
+  <a href="https://ru.hexlet.io/" style="color: black">
+    <img src="images/hexlet_logo.png" 
+        alt="Hexlet brand logo" 
+        width="110" heigth="110"
+        style="display: flex; align-items: center; justify-content: center;">
+   </a>
 </div>
 
 
