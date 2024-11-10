@@ -1,6 +1,6 @@
 import random
 from brain_games.game_engine import game_engine
-from brain_games.constants import EVEN_GAME_INTRODUCTION
+from brain_games.constants import EVEN_GAME_BRIEFING
 
 
 def is_even(number):
@@ -16,4 +16,4 @@ def get_random_num_and_answer():
 
 
 def even_game():
-    game_engine(get_random_num_and_answer, EVEN_GAME_INTRODUCTION)
+    game_engine(get_random_num_and_answer, EVEN_GAME_BRIEFING)

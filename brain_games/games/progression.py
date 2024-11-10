@@ -1,8 +1,8 @@
 import random
 
 from brain_games.game_engine import game_engine
-from brain_games.constants import STEP_OF_SEQUENCE
-from brain_games.constants import PROG_GAME_INTRODUCTION
+# from brain_games.constants import STEP_OF_SEQUENCE
+from brain_games.constants import PROG_GAME_BRIEFING
 
 
 def get_random_sequence_and_answer():
@@ -20,4 +20,4 @@ def get_random_sequence_and_answer():
 
 
 def progression_game():
-    game_engine(get_random_sequence_and_answer, PROG_GAME_INTRODUCTION)
+    game_engine(get_random_sequence_and_answer, PROG_GAME_BRIEFING)

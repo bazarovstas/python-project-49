@@ -2,11 +2,11 @@ import prompt
 import brain_games.constants as const
 
 
-def game_engine(get_question_and_answer, introduction):
-    username = prompt.string(''.join(const.GREETING))
+def game_engine(get_question_and_answer, briefing):
+    username = prompt.string(const.GREETING)
     print(f'Hello, {username}!')
-    print(''.join(introduction))
-    for _ in range(const.GAMES_TO_WIN):
+    print(briefing)
+    for _ in range(const.NUMBER_OF_GAMES):
         question, answer = get_question_and_answer()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')

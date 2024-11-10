@@ -1,7 +1,7 @@
 import random
 
 from brain_games.game_engine import game_engine
-from brain_games.constants import GCD_GAME_INTRODUCTION
+from brain_games.constants import GCD_GAME_BRIEFING
 
 
 def get_greatest_common_divisor(num1, num2):
@@ -18,4 +18,4 @@ def get_random_numbers_and_answer():
 
 
 def gcd_game():
-    game_engine(get_random_numbers_and_answer, GCD_GAME_INTRODUCTION)
+    game_engine(get_random_numbers_and_answer, GCD_GAME_BRIEFING)

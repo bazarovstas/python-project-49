@@ -1,7 +1,7 @@
 import random
 
 from brain_games.game_engine import game_engine
-from brain_games.constants import PRIME_GAME_INTRODUCTION
+from brain_games.constants import PRIME_GAME_BRIEFING
 
 
 def is_prime(number):
@@ -19,4 +19,4 @@ def get_random_number_and_answer():
 
 
 def prime_game():
-    game_engine(get_random_number_and_answer, PRIME_GAME_INTRODUCTION)
+    game_engine(get_random_number_and_answer, PRIME_GAME_BRIEFING)
