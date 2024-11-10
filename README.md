@@ -2,14 +2,12 @@
 <a id="anchor-top"></a>
 <div align="center"
       style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
-      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
   <a href="https://ru.hexlet.io/" style="color: black">
     <img src="images/hexlet_logo_full.svg" 
           alt="Logo" 
           width="170" height="60"
           style="display: flex; flex-wrap: wrap; margin: 6px"> 
   </a>
-  <p style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</p>
   <p style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</p>
 </div>
 
@@ -22,7 +20,20 @@
 [![Hexlet-Project][project-image]](https://ru.hexlet.io/)
 
 
-## The Brain Games  
+## Table of contents  
+**[The Brain Games](#the-brain-games)**  
+**[The Even Game](#the-brain-even)**  
+**[The Calc Game](#the-calc-game)**  
+**[The GCD Game](#the-gcd-game)**  
+**[The Progressive Game](#the-progressive-game)**  
+**[The Prime Game](#the-prime-game)**  
+**[Tech Stack](#tech-stack)**    
+**[Installation](#installation)**    
+**[Usage](#usage)**    
+**[Reinstall](#reinstall)**    
+
+
+# The Brain Games  
 Brain Games is a set of 5 logic puzzles that let you test how smart you are:
 
 |Game|Question|Example|
@@ -32,6 +43,8 @@ Brain Games is a set of 5 logic puzzles that let you test how smart you are:
 | The GCD Game | Find the greatest common divisor of given numbers | 10 90 |  
 | The Progressive Game | What number is missing in the progression? | 3 7 .. 15 |
 | The Prime Game | Answer "yes" if given number is prime. Otherwise answer "no" | 21 |
+
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 ## The Even Game  
 This demo of the even game shows the game process:  
@@ -54,7 +67,12 @@ This demo of the prime game shows the game process:
 [![asciicast](https://asciinema.org/a/687413.svg)](https://asciinema.org/a/687413)
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
-<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+
+
+## Tech Stack  
+![Static Badge](https://img.shields.io/badge/python-3.12-ffde57?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/poetry-1.8.4-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/pip-24.3.1-F8FAF5?style=for-the-badge)
 
 
 ## Installation
@@ -103,6 +121,7 @@ and finnaly, enter the following command in the CLI:
   poetry add git+ssh://git@github.com:bazarovstas/python-project-49.git
   ```
 
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 ## Usage  
 you can use scripts from the Makefile by installing the package, or use poetry scripts without installing anything:
@@ -129,15 +148,13 @@ generate a distributive and install them:
   brain-prime
   ```
 
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 ## Reinstall  
   to reinstall the package, use the following command:  
   ```
   package-reinstall
   ```
-
-<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
-<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 <div align="center"
       style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
