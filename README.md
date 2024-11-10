@@ -2,12 +2,14 @@
 <a id="anchor-top"></a>
 <div align="center"
       style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
+      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
   <a href="https://ru.hexlet.io/" style="color: black">
     <img src="images/hexlet_logo_full.svg" 
           alt="Logo" 
           width="170" height="60"
           style="display: flex; flex-wrap: wrap; margin: 6px"> 
   </a>
+  <p style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</p>
   <p style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</p>
 </div>
 
@@ -51,6 +53,7 @@ This demo of the progressive game shows the game process:
 This demo of the prime game shows the game process:  
 [![asciicast](https://asciinema.org/a/687413.svg)](https://asciinema.org/a/687413)
 
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 
@@ -134,15 +137,16 @@ generate a distributive and install them:
   ```
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
-<div class="logo_wrapper"
-      style="display: flex; align-items: center; justify-content: center;">
+<div align="center"
+      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
   <a href="https://ru.hexlet.io/" style="color: black">
     <img src="images/hexlet_logo.png" 
-        alt="Hexlet brand logo" 
-        width="110" heigth="110"
-        style="display: flex; align-items: center; justify-content: center;">
-   </a>
+          alt="Logo" 
+          width="110" height="110"
+          style="display: flex; flex: 1; flex-wrap: wrap; justify-content: right;"> 
+  </a>
 </div>
 
 
