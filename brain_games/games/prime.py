@@ -5,16 +5,20 @@ from brain_games.constants import PRIME_GAME_BRIEFING
 
 def is_prime(number):
     if number == 1:
-        return 'no'
-    divisor = 2
-    while number % divisor != 0:
-        divisor += 1
-    return 'yes' if number == divisor else 'no'
+        return False
+    if number % 2 == 0:
+        return number == 2
+    square_root = int(number ** 0.5) + 1
+    for divisor in range(3, square_root, 2):
+        if number % divisor == 0:
+            return False
+    return True
 
 
 def get_random_number_and_answer():
     random_number = get_random_number()
-    return str(random_number), is_prime(random_number)
+    prime_check = 'yes' if is_prime(random_number) else 'no'
+    return str(random_number), prime_check
 
 
 def prime_game():
