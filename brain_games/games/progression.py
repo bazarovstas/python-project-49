@@ -10,7 +10,7 @@ def get_random_sequence_and_answer():
     sequence = []
     sequence.append(start_number)
     for i in range(8):
-        sequence += [sequence[i] + random_step]
+        sequence += [sequence[i] + int(random_step)]
     question = ''
     answer = get_random_choice(sequence)
     for i in range(len(sequence)):

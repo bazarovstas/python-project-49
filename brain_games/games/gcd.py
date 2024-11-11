@@ -1,19 +1,14 @@
+from math import gcd
 from brain_games.utils import get_random_number
 from brain_games.game_engine import game_engine
 from brain_games.constants import GCD_GAME_BRIEFING
 
 
-def get_greatest_common_divisor(num1, num2):
-    while num2:
-        num1, num2 = num2, num1 % num2
-    return num1
-
-
 def get_random_numbers_and_answer():
     num1, num2 = get_random_number(), get_random_number()
     question = f'{num1} {num2}'
-    answer = str(get_greatest_common_divisor(num1, num2))
-    return question, answer
+    answer = gcd(num1, num2)
+    return question, str(answer)
 
 
 def gcd_game():
