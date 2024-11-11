@@ -9,8 +9,8 @@ def is_even(number: int) -> bool:
 
 def get_random_num_and_answer():
     random_number = get_random_number()
-    even_check = is_even(random_number)
-    return random_number, 'yes' if even_check else 'no'
+    even_check = 'yes' if is_even(random_number) else 'no'
+    return random_number, even_check
 
 
 def even_game():
