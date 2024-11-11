@@ -5,4 +5,5 @@ PROG_GAME_BRIEFING = 'What number is missing in the progression?'
 PRIME_GAME_BRIEFING = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 NUMBER_OF_GAMES = 3
+PROGRESSION_LENGTH = 9
 MATH_SYMBOLS = ['+', '-', '*']

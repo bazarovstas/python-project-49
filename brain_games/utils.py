@@ -6,6 +6,6 @@ def get_random_number(range: int = 100) -> int:
     return random_number
 
 
-def get_random_choice(collection: list[str]) -> str:
+def get_random_choice(collection: list[int]) -> int:
     random_choice = random.choice(collection)
     return random_choice
