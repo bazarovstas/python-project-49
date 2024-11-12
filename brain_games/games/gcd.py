@@ -1,7 +1,7 @@
 from math import gcd
 from brain_games.utils import get_random_number
 from brain_games.game_engine import game_engine
-from brain_games.constants import GCD_GAME_BRIEFING
+from brain_games.constants import GCD_BRIEFING
 
 
 def get_random_numbers_and_answer():
@@ -12,4 +12,4 @@ def get_random_numbers_and_answer():
 
 
 def gcd_game():
-    game_engine(get_random_numbers_and_answer, GCD_GAME_BRIEFING)
+    game_engine(get_random_numbers_and_answer, GCD_BRIEFING)
