@@ -2,7 +2,7 @@ import prompt
 import brain_games.constants as const
 
 
-def game_engine(get_question_and_answer: callable[str, str], briefing: str):
+def game_engine(get_question_and_answer: callable, briefing: str):
     username = prompt.string(
         'Welcome to the Brain Games!\n''May I have your name? '
     )
