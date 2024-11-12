@@ -3,7 +3,7 @@ from brain_games.game_engine import game_engine
 from brain_games.constants import PRIME_BRIEFING
 
 
-def is_prime(number):
+def is_prime(number: int) -> bool:
     if number == 1:
         return False
     if number % 2 == 0:

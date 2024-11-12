@@ -10,7 +10,7 @@ def is_even(number: int) -> bool:
 def get_random_num_and_answer():
     random_number = get_random_num()
     even_check = 'yes' if is_even(random_number) else 'no'
-    return random_number, even_check
+    return str(random_number), even_check
 
 
 def even_game():
