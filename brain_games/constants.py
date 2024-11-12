@@ -6,4 +6,3 @@ PRIME_GAME_BRIEFING = 'Answer "yes" if given number is prime. Otherwise answer "
 
 NUMBER_OF_GAMES = 3
 PROGRESSION_LENGTH = 9
-MATH_SYMBOLS = ['+', '-', '*']

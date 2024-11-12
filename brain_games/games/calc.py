@@ -1,16 +1,22 @@
-from brain_games.utils import get_random_number, get_random_choice
+from random import choice
+from brain_games.utils import get_random_number
 from brain_games.game_engine import game_engine
-from brain_games.constants import MATH_SYMBOLS
 from brain_games.constants import CALC_GAME_BRIEFING
 
 
-def get_expression_and_answer():
-    num1, num2 = get_random_number(20), get_random_number(10)
+def get_random_math_sym_and_calc_answer(num1: int, num2: int) -> list[str | int]:
+    return choice([
+        ['+', num1 + num2],
+        ['-', num1 - num2],
+        ['*', num1 * num2],
+    ])
 
-    random_symbol = get_random_choice(MATH_SYMBOLS)
-    expression = f'{str(num1)} {random_symbol} {str(num2)}'
-    answer = str(eval(expression))
-    return expression, answer
+
+def get_expression_and_answer():
+    num1, num2 = get_random_number(max_range=15), get_random_number(max_range=10)
+    random_math_symbol, answer = get_random_math_sym_and_calc_answer(num1, num2)
+    question = f'{num1} {random_math_symbol} {num2}'
+    return question, str(answer)
 
 
 def calc_game():
