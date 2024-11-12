@@ -50,17 +50,25 @@ Brain Games is a set of 5 logic puzzles that let you test how smart you are:
 This demo of the even game shows the game process:  
 [![asciicast](https://asciinema.org/a/687407.svg)](https://asciinema.org/a/687407)
 
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+
 ## The Calc Game
 This demo of the calc game shows the game process:  
 [![asciicast](https://asciinema.org/a/687410.svg)](https://asciinema.org/a/687410)
+
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 ## The GCD Game
 This demo of the gcd game shows the game process:  
 [![asciicast](https://asciinema.org/a/687411.svg)](https://asciinema.org/a/687411)
 
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+
 ## The Progressive Game
 This demo of the progressive game shows the game process:  
 [![asciicast](https://asciinema.org/a/687412.svg)](https://asciinema.org/a/687412)
+
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 ## The Prime Game
 This demo of the prime game shows the game process:  
@@ -72,8 +80,10 @@ This demo of the prime game shows the game process:
 ## Tech Stack  
 ![Static Badge](https://img.shields.io/badge/python-3.12-ffde57?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/poetry-1.8.4-blue?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/pip-24.3.1-F8FAF5?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/pip-24.3.1-f0efe0?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/prompt-0.4.1-green?style=for-the-badge)
 
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 ## Installation
 The installation is simple and does not take much time
@@ -136,8 +146,8 @@ you can use scripts from the Makefile by installing the package, or use poetry s
   * Scripts:  
 generate a distributive and install them:
   ```
-  build
-  package-install
+  make build
+  make package-install
   ```
   use one of the following commands to run a specific game:  
   ```
@@ -155,6 +165,8 @@ generate a distributive and install them:
   ```
   package-reinstall
   ```
+
+<p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
 <div align="center"
       style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
