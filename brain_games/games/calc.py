@@ -1,7 +1,7 @@
 from random import choice
 from brain_games.utils import get_random_num
 from brain_games.game_engine import game_engine
-from brain_games.constants import CALC_GAME_BRIEFING
+from brain_games.constants import CALC_BRIEFING
 
 
 def get_random_math_sym_and_answer(num1: int, num2: int) -> list[str | int]:
@@ -20,4 +20,4 @@ def get_expression_and_answer():
 
 
 def calc_game():
-    game_engine(get_expression_and_answer, CALC_GAME_BRIEFING)
+    game_engine(get_expression_and_answer, CALC_BRIEFING)

@@ -1,13 +1,13 @@
 from random import choice
-from brain_games.utils import get_random_number
+from brain_games.utils import get_random_num
 from brain_games.game_engine import game_engine
 from brain_games.constants import PROGRESSION_LENGTH
 from brain_games.constants import PROG_BRIEFING
 
 
 def get_random_sequence_and_answer():
-    random_step = get_random_number(min_range=2, max_range=5)
-    start_number = get_random_number(max_range=15)
+    random_step = get_random_num(min_range=2, max_range=5)
+    start_number = get_random_num(max_range=15)
     seq = []
     seq.append(start_number)
     for i in range(PROGRESSION_LENGTH):
