@@ -12,7 +12,7 @@
   </a>
   <p style="display: flex; flex: 1; 
             flex-wrap: wrap; justify-content: center; 
-            margin: 0; color: #1100A0;
+            margin: 0; color: #1100A0 !important;
             font-weight: 500; letter-spacing: 1px;">hands-on programming courses</p>
 </div>
 
@@ -21,7 +21,7 @@
   <img src="images/hexlet_background.jpg" 
         alt="Hexlet header image" 
         width="auto" height="auto"
-        style="display: flex; flex-wrap: wrap; border-radius: 50%"> 
+        style="display: flex; flex-wrap: wrap; max-width: 100%; border-radius: 50% !important;"> 
 </a>
 
 
