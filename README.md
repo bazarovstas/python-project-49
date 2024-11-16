@@ -1,36 +1,47 @@
 <!-- Hexlet logo -->
 <a id="anchor-top"></a>
 <div align="center"
-      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
+      style="display: flex; flex: 1;
+            flex-wrap: wrap; flex-direction: column; 
+            margin: 0; margin-bottom: 25px">
   <a href="https://ru.hexlet.io/" style="color: black">
     <img src="images/hexlet_logo_full.svg" 
           alt="Logo" 
-          width="170" height="60"
+          width="210" height="60"
           style="display: flex; flex-wrap: wrap; margin: 6px"> 
   </a>
-  <p style="display: flex; flex-wrap: wrap; flex: 1; justify-content: center; margin: 0">hands-on programming courses</p>
+  <p style="display: flex; flex: 1; 
+            flex-wrap: wrap; justify-content: center; 
+            margin: 0; color: #1100A0;
+            font-weight: 500; letter-spacing: 1px;">hands-on programming courses</p>
 </div>
 
-### Hexlet tests and linter status:
+<!-- Hexlet header -->
+<a href="https://ru.hexlet.io/" style="color: black">
+  <img src="images/hexlet_background.jpg" 
+        alt="Hexlet header image" 
+        width="auto" height="auto"
+        style="display: flex; flex-wrap: wrap; border-radius: 50%"> 
+</a>
+
+
+### Hexlet tests, linter and Code Climate status:
 [![Actions Status](https://github.com/bazarovstas/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/bazarovstas/python-project-49/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5d6e3363a9f1e31f303f/maintainability)](https://codeclimate.com/github/bazarovstas/python-project-49/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5d6e3363a9f1e31f303f/maintainability)](https://codeclimate.com/github/bazarovstas/python-project-49/maintainability)  
 
 
 <!-- Main page -->
-[![Hexlet-Project][project-image]](https://ru.hexlet.io/)
-
-
 ## Table of contents  
-**[The Brain Games](#the-brain-games)**  
-**[The Even Game](#the-brain-even)**  
-**[The Calc Game](#the-calc-game)**  
-**[The GCD Game](#the-gcd-game)**  
-**[The Progressive Game](#the-progressive-game)**  
-**[The Prime Game](#the-prime-game)**  
-**[Tech Stack](#tech-stack)**    
-**[Installation](#installation)**    
-**[Usage](#usage)**    
-**[Reinstall](#reinstall)**    
+**[1. The Brain Games](#the-brain-games)**  
+**[- 1.1 Even Game](#even-game)**  
+**[- 1.2 Calc Game](#calc-game)**  
+**[- 1.3 GCD Game](#gcd-game)**  
+**[- 1.4 Progressive Game](#progressive-game)**  
+**[- 1.5 Prime Game](#prime-game)**    
+**[2. Tech Stack](#tech-stack)**    
+**[3. Installation](#installation)**    
+**[4. Usage](#usage)**    
+**[5. Reinstall](#reinstall)**    
 
 
 # The Brain Games  
@@ -46,31 +57,31 @@ Brain Games is a set of 5 logic puzzles that let you test how smart you are:
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
-## The Even Game  
+## Even Game  
 This demo of the even game shows the game process:  
 [![asciicast](https://asciinema.org/a/687407.svg)](https://asciinema.org/a/687407)
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
-## The Calc Game
+## Calc Game
 This demo of the calc game shows the game process:  
 [![asciicast](https://asciinema.org/a/687410.svg)](https://asciinema.org/a/687410)
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
-## The GCD Game
+## GCD Game
 This demo of the gcd game shows the game process:  
 [![asciicast](https://asciinema.org/a/687411.svg)](https://asciinema.org/a/687411)
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
-## The Progressive Game
+## Progressive Game
 This demo of the progressive game shows the game process:  
 [![asciicast](https://asciinema.org/a/687412.svg)](https://asciinema.org/a/687412)
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
-## The Prime Game
+## Prime Game
 This demo of the prime game shows the game process:  
 [![asciicast](https://asciinema.org/a/687413.svg)](https://asciinema.org/a/687413)
 
@@ -84,6 +95,7 @@ This demo of the prime game shows the game process:
 ![Static Badge](https://img.shields.io/badge/prompt-0.4.1-green?style=for-the-badge)
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
+
 
 ## Installation
 The installation is simple and does not take much time
@@ -133,6 +145,7 @@ and finnaly, enter the following command in the CLI:
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
+
 ## Usage  
 you can use scripts from the Makefile by installing the package, or use poetry scripts without installing anything:
   * Poetry:  
@@ -160,24 +173,24 @@ generate a distributive and install them:
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
+
 ## Reinstall  
   to reinstall the package, use the following command:  
   ```
-  package-reinstall
+  make package-reinstall
   ```
 
 <p align="right">[<a href="#anchor-top" style="color: black">BACK TO TOP</a>]</p>
 
+<!-- Hexlet footer -->
 <div align="center"
-      style="display: flex; flex-wrap: wrap; flex: 1; flex-direction: column; margin: 0">
+      style="display: flex; flex: 1;  
+      flex-wrap: wrap; flex-direction: column; 
+      margin: 0; margin-top: 20px;">
   <a href="https://ru.hexlet.io/" style="color: black">
-    <img src="images/hexlet_logo.png" 
-          alt="Logo" 
-          width="110" height="110"
-          style="display: flex; flex: 1; flex-wrap: wrap; justify-content: right;"> 
+    <img src="images/hexlet_background.png" 
+          alt="Hexlet footer image" 
+          width="auto" height="auto"
+          style="display: flex; flex-wrap: wrap; border-radius: 25%"> 
   </a>
 </div>
-
-
-<!-- Markdown images -->
-[project-image]: images/project_image.png
