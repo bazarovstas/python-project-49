@@ -4,12 +4,10 @@ from brain_games.constants import PRIME_BRIEFING
 
 
 def is_prime(number: int) -> bool:
-    if number == 1:
+    if number < 2:
         return False
-    if number % 2 == 0:
-        return number == 2
-    square_root = int(number ** 0.5) + 1
-    for divisor in range(3, square_root, 2):
+
+    for divisor in range(2, int(number ** 0.5) + 1):
         if number % divisor == 0:
             return False
     return True
